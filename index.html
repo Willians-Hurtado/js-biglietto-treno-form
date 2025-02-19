@@ -11,7 +11,41 @@
 
     <!-- MILESTONE 1:
     Iniziamo implementando il programma senza alcuna estetica: usando esclusivamente due input e un bottone (non stilizzati), realizziamo le specifiche scritte sopra. La risposta finale (o output) sarà anch’essa da scrivere in console. -->
+
+    <div class="cardData">
+
+        <div class="row">
+            <div class="col">
+                <div>Nome Cognome</div>
+                <input type="text" name="fullName" id="fullName">
+
+            </div>
+
+            <div class="col">
+                <div>Km da percorrere</div>
+                <input type="text" name="km" id="km">
+            </div>
+        
+            <div class="col">
+                <div>Fascia d'età</div>
+                <select class="form-select" name="age" id="age" required>
+                    <option selected disabled>Età</option>
+                    <option value="minorenne">Minorenne</option>
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="over65">Over 65</option>
+
+                </select>
+            </div>
+        </div> 
     
+        <div>
+            <button id="genera">Genera</button>
+            <button id="annulla">Annulla</button>
+        </div>
+    </div>
+    
+    
+
 
 
     <!-- MILESTONE 2:
